@@ -28,7 +28,10 @@ struct JosephView: View {
             TextField("Event Time", text: $evenTime)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
-            
+            Button("Add Event"){
+                
+            }
+            .padding()
         }
         .padding(.top, -350)
        
